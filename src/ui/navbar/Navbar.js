@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <a
           href="/"
-          className="flex items-center rounded-xl hover:bg-gray-800 font-bold text-white"
+          className="flex items-center rounded-xl hover:text-yellow-400 font-bold text-white"
         >
           <img src={logo} alt="logo" className="h-8 mr-2" />
           ideal-dollop&nbsp;&nbsp;
