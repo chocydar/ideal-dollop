@@ -1,21 +1,24 @@
 {
   "name": "ideal-dollop",
-  "version": "0.1.0",
+  "author": "chocydar",
+  "homepage": ".",
+  "version": "0.0.1",
+  "description": "",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
     "ethers": "^5.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0",
     "web3": "^1.10.4"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -b gh-pages -d build",
+    "lint": "prettier -w .",
+    "clean": "rm -rf build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "yarn clean && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
