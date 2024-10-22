@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+        "ms-azuretools.vscode-docker",
+        "includable.file-duplicate",
+        "GitHub.codespaces",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "rjmacarthy.twinny",
+        "alexcvzz.vscode-sqlite",
+        "mads-hartmann.bash-ide-vscode",
+        "GitHub.github-vscode-theme"
+      ]
+}
